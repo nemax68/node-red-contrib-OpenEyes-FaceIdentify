@@ -1,14 +1,20 @@
 {
-	"name"         : "openeyes-faceidentify",
-	"version"      : "0.0.1",
-	"description"  : "Identify person",
-	"repository" : {
+	"name": "openeyes-faceidentify",
+	"version": "0.0.1",
+	"description": "Identify person",
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/nemax68/node-red-contrib-OpenEyes-FaceIdentify"
 	},
 	"license": "GPL-3.0-or-later",
-	"keywords": [ "node-red", "contrib", "OpenEyes", "face", "identify"  ],
-	"node-red"     : {
+	"keywords": [
+		"node-red",
+		"contrib",
+		"OpenEyes",
+		"face",
+		"identify"
+	],
+	"node-red": {
 		"nodes": {
 			"faceidentify": "face/faceidentify.js"
 		}
