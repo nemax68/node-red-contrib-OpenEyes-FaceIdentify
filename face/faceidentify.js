@@ -26,13 +26,11 @@ module.exports = function(RED) {
         this.urltag = config.urltag;
         var node = this;
 
-        node.status({fill: "green", shape: "dot", text: node.swtag});
-
         this.on('input', function(msg) {
 
           const { exec } = require('child_process');
 
-          var cmd="oe_face_detect --swtag " + node.swtag + " --hwtag " + node.hwtag + " --url " + node.urltag;
+          var cmd="oe_face_identify --swtag " + node.swtag + " --hwtag " + node.hwtag + " --url " + node.urltag;
           console.log(cmd);
           exec(cmd, (err, stdout, stderr) => {
             if (err) {
