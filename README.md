@@ -14,7 +14,7 @@ Requirements
 
 * Need [OpenEyes](http://open-eyes.it) hardware platform
 
-  ![OpenEyes-FaceIdentify-flow](https://github.com/nemax68/node-red-contrib-OpenEyes-GetButton/blob/master/images/open-eyes.png)
+  ![OpenEyes-FaceIdentify-flow](https://github.com/nemax68/node-red-contrib-OpenEyes-FaceIdentify/blob/master/images/open-eyes.png)
 
 Install
 =======
@@ -25,7 +25,7 @@ $ npm install openeyes-faceidentify
 Values
 ========
 
-![Values](https://github.com/nemax68/node-red-contrib-OpenEyes-Screen/blob/master/images/value.png)
+![Values](https://github.com/nemax68/node-red-contrib-OpenEyes-FaceIdentify/blob/master/images/value.png)
 
 Examples
 ========
